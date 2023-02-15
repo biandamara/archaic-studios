@@ -14,7 +14,7 @@ function Home() {
       {/* header - end */}
 
       {/* sacrion - start */}
-      <div></div>
+      <h1>Memang belum ada content</h1>
       {/* sacrion - end */}
 
       {/* footer - start */}
