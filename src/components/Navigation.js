@@ -4,6 +4,7 @@ function Navigation() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
+        {/* logo - start */}
         <a className="navbar-brand" href="/">
           <img
             src="https://res.cloudinary.com/biandamara/image/upload/v1676469518/Archaic%20Studios/icon_qtpbou.jpg"
@@ -11,7 +12,10 @@ function Navigation() {
             style={{ height: "2rem", borderRadius: "50%" }}
           />
         </a>
-        <button
+        {/* logo - end */}
+
+        {/* expand menu - start */}
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -21,8 +25,11 @@ function Navigation() {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        </button> */}
+        {/* expand menu - end */}
+
+        {/* menu - start */}
+        {/* <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="/">
@@ -45,7 +52,8 @@ function Navigation() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
+        {/* menu - end */}
       </div>
     </nav>
   );

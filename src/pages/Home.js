@@ -2,6 +2,8 @@ import React from "react";
 
 // import components
 import Navigation from "../components/Navigation";
+// import Hero from "../components/Hero";
+import Follow from "../components/Follow";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -9,16 +11,28 @@ function Home() {
     <body>
       {/* header - start */}
       <header>
+        {/* navigation bar - start */}
         <Navigation />
+        {/* navigation bar - end */}
+
+        {/* hero - start */}
+        {/* <Hero /> */}
+        {/* hero - end */}
       </header>
       {/* header - end */}
 
-      {/* sacrion - start */}
-      <h1>Memang belum ada content</h1>
-      {/* sacrion - end */}
+      {/* section - start */}
+      <section>
+        {/* follow us - start */}
+        <Follow />
+        {/* follow us - end */}
+      </section>
+      {/* section - end */}
 
       {/* footer - start */}
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
       {/* footer - end */}
     </body>
   );
